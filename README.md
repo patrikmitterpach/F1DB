@@ -56,7 +56,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[license-shield]: https://img.shields.io/github/license/patrikmitterpach/F1DB.svg?style=GPL3
+[license-shield]: https://img.shields.io/badge/LICENSE-GPL3-green?style=for-the-badge
 [license-url]: https://github.com/patrikmitterpach/F1DB/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/patrikmitterpach
