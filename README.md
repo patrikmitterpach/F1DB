@@ -38,6 +38,22 @@ This PostgreSQL database was created as a semestral work for the class BI-DBS fo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+In the world of Formula 1, individual **drivers** take center stage, and we meticulously track essential statistics such as their *name*, *age*, and *country of origin*. Each driver is assigned *a unique three-letter abbreviation*, often derived from the first three letters of their last name, serving as an identifier displayed in the race's live position table.
+
+Drivers are contracted by **teams**, and these contracts include information on *start and end dates*, along with annual *salaries*. Given the rarity of mid-season contract changes, the dates are recorded in years.
+
+While a driver can belong to a maximum of one team, teams can have multiple drivers, including two primary drivers as well as backup or test drivers. Alongside drivers, we track valuable information about teams, including **team principals** (bosses), *founding dates*, the *number of constructors' championship wins*, **country of origin**, and the associated **driver**.
+
+Each team is responsible for constructing a single **car design** utilized by both drivers. The database maintains engine information, which can be sourced from various **manufacturers**, including the possibility of teams supplying engines to themselves and other teams.
+
+Teams and drivers participate in an annual **championship season**, wherein the Constructors' Cup and the Drivers' Cup each designate **winners**. It's important to note that these wins do not have to align; in other words, the winning driver is not required to be from the winning team, as team wins are based on the combined points earned by both drivers.
+
+A championship season comprises approximately twenty **Grand Prix races**, with each race recording the *event date*, *winner*, and *whether a safety car was deployed*, often in response to an accident. A dedicated **race director** is responsible for overseeing each race.
+
+Each race takes place on a single **circuit**, with the potential for multiple races to occur on the same circuit, optimizing cost efficiency. We maintain information regarding *track names*, *locations*, *lengths*, *year of construction*, and details about the associated **country** and *continent*.
+
+During a Grand Prix, drivers may incur **penalties** for rule violations. We track penalty-related information, including the *recipient of the penalty*, the *race* in which it was given, and the *specific penalty imposed*. Four categories of penalties exist: time penalties during a race, positional penalties, monetary penalties, and the allocation of penalty points. Accumulation of 12 penalty points results in disqualification from the next race. It's worth noting that a non-penalty penalty serves as a warning without further consequences.
+
 ## Structure
 ![Conceptual Model](/images/conceptual_scheme.png)
 
