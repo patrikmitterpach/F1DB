@@ -38,6 +38,8 @@ This PostgreSQL database was created as a semestral work for the class BI-DBS fo
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## About the Database
+
 In the world of Formula 1, individual **drivers** take center stage, and we meticulously track essential statistics such as their *name*, *age*, and *country of origin*. Each driver is assigned *a unique three-letter abbreviation*, often derived from the first three letters of their last name, serving as an identifier displayed in the race's live position table.
 
 Drivers are contracted by **teams**, and these contracts include information on *start and end dates*, along with annual *salaries*. Given the rarity of mid-season contract changes, the dates are recorded in years.
