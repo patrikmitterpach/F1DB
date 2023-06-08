@@ -107,7 +107,6 @@ INSERT INTO reziser VALUES (3, 'Niels Wittich');
 INSERT INTO reziser VALUES (4, 'Eduardo Freitas');
 
 -- TIMY
---                      id | meno   | zalozeny | krajiny | vitazstva | principal
 INSERT INTO Tim VALUES (1, 'Red Bull Racing',   2005, 24,  4,  4 );
 INSERT INTO Tim VALUES (2, 'Mercedes',          2010,  2,  8, 10 );
 INSERT INTO Tim VALUES (3, 'Ferrari',           1950,  3, 16,  2 );
