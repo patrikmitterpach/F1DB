@@ -37,6 +37,13 @@
 This PostgreSQL database was created as a semestral work for the class BI-DBS for the FIT ČVUT bachelor's programme. The project achieved full basic and bonus points and was within the top 1% of all submitted student projects.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Structure
+![Conceptual Model](/images/conceptual_scheme.png)
+
+The database consists of 20+ objects, 200+ entities and 28 different queries to interact with the given data. The queries were chosen to represent a various range of options the PostgreSQL system offeres.
+
+
 <!-- LICENSE -->
 ## License
 
