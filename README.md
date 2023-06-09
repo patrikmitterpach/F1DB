@@ -20,7 +20,7 @@
     <a href="https://github.com/patrikmitterpach/F1DB"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/patrikmitterpach/F1DB">About</a>
+    <a href="https://github.com/patrikmitterpach/F1DB#about-the-project">About</a>
     ·
     <a href="https://github.com/patrikmitterpach/F1DB/issues">Installation</a>
     ·
@@ -59,8 +59,21 @@ During a Grand Prix, drivers may incur **penalties** for rule violations. We tra
 ## Structure
 ![Conceptual Model](/images/conceptual_scheme.png)
 
-The database consists of 20+ objects, 200+ entities and 28 different queries to interact with the given data. The queries were chosen to represent a various range of options the PostgreSQL system offeres.
+The database consists of 20+ objects, 200+ entities and 28 different queries to interact with the given data. The queries were chosen to represent a various range of options the PostgreSQL system offers.
 
+## Installation
+
+To install, clone the repository by running the following command:
+
+```cmd
+git clone https://github.com/patrikmitterpach/F1DB
+```
+
+and launch the files within the `source/` folder in the following order:
+
+1. `create.sql`
+2. `insert.sql`
+3. `query .sql`
 
 <!-- LICENSE -->
 ## License
