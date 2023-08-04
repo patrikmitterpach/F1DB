@@ -2,8 +2,8 @@
 
 <div align="center">
   
-  [![GPL License][license-shield]][license-url]
   [![LinkedIn][linkedin-shield]][linkedin-url]
+  [![GPL License][license-shield]][license-url]
   ![Size](https://img.shields.io/github/languages/code-size/patrikmitterpach/F1DB?color=green&style=for-the-badge)
   ![Last Commit](https://img.shields.io/github/last-commit/patrikmitterpach/F1DB?color=green&style=for-the-badge)
 
